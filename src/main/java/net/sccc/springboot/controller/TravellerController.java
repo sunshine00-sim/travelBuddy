@@ -2,6 +2,7 @@ package net.sccc.springboot.controller;
 
 
 import java.text.ParseException;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -21,6 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import jakarta.servlet.annotation.WebServlet;
 import net.sccc.springboot.repository.RegistrationRepo;
 import net.sccc.springboot.repository.TravellerRepo;
 import net.sccc.springboot.repository.TripReqRepo;
@@ -35,6 +37,7 @@ import net.sccc.springboot.model.TripReq;
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/v1")
+@WebServlet("/api/v1")
 public class TravellerController {
 	
 	String usernameNow;
