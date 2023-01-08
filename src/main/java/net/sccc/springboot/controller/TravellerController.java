@@ -64,6 +64,11 @@ public class TravellerController {
 		return travellerRepo.findAll();
 		
 	}
+	@GetMapping("/test")
+	public String testAzure() {
+		String wow = "hello";
+		return wow;
+	}
 	// create a new trip Rest API
 	@PostMapping("/travellers")
 	public Traveller addTrip(@RequestBody Traveller traveller) {
