@@ -36,12 +36,12 @@ jobs:
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
     steps:
       - name: Download artifact from build job
         uses: actions/download-artifact@v2
         with:
           name: java-app
-    
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'travel-buddy'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FDD2BD09C3D34036AC8410C8BCD39881 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_787A9B161FEE48AE8F24BD7127B488A5 }}
           package: '*.war'
