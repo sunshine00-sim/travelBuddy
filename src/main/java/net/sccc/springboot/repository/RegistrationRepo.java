@@ -1,8 +1,10 @@
 package net.sccc.springboot.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+
 import org.springframework.data.jpa.repository.Query;
 import net.sccc.springboot.model.UserRegistration;
+
 
 public interface RegistrationRepo extends JpaRepository<UserRegistration, Long> {
 	//List<UserRegistration> findByuser_name(String user_name);

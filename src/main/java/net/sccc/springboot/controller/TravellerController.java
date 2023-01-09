@@ -42,6 +42,7 @@ public class TravellerController {
 	String usernameNow;
 	@Autowired
 	private TravellerRepo travellerRepo;
+	@Autowired
 	private RegistrationRepo regRepo;
 	private TripReqRepo tripRepo;
 	private final WeatherService weatherService;

@@ -1,0 +1,14 @@
+net/sccc/springboot/repository/TripReqRepo.class
+net/sccc/springboot/service/WeatherService.class
+net/sccc/springboot/repository/TravellerRepo.class
+net/sccc/springboot/model/TripReq.class
+net/sccc/springboot/model/UserRegistration.class
+net/sccc/springboot/model/WeatherLayout.class
+net/sccc/springboot/TravelBuddyBackendApplication.class
+net/sccc/springboot/model/WeatherModel.class
+net/sccc/springboot/service/UUIDService.class
+net/sccc/springboot/config/SecurityConfig.class
+net/sccc/springboot/model/Traveller.class
+net/sccc/springboot/controller/TravellerController.class
+net/sccc/springboot/repository/RegistrationRepo.class
+net/sccc/springboot/exception/ResourceNotFoundException.class

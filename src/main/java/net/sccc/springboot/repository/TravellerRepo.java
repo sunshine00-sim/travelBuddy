@@ -1,6 +1,7 @@
 package net.sccc.springboot.repository;
 
 import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import net.sccc.springboot.model.Traveller;
 
